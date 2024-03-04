@@ -1,0 +1,43 @@
+h1 {
+  color: black;
+  background-color: yellow;
+  display: block;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  background-color: yellow;
+  display: inline-block;
+  font-size: 23px;
+}
+
+body {
+  background: url(background.jpg);
+}
+
+.grid {
+  border: 3px solid;
+  height: 480px;
+  width: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: beige;
+}
+
+.grid div {
+  height: 80px;
+  width: 80px;
+}
+
+.player-one {
+  border-radius: 10px;
+  background: url(bob.jpg);
+  background-size: cover;
+}
+
+.player-two {
+  border-radius: 10px;
+  background: url(linda.jpg);
+  background-size: cover;
+}
